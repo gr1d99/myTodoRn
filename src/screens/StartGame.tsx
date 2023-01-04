@@ -1,11 +1,10 @@
-import {Text, StyleSheet} from "react-native";
+import { StyleSheet} from "react-native";
 import PrimaryButton from "../components/PrimaryButton";
-import {View} from "../ui/View";
-import {TextInput} from "../ui/Textinput"
+import {View, TextInput} from "../ui";
 
 const StartGame = () => {
     return (
-        <View className="bg-[#4e0329] mt-16 pb-8 rounded-md items-center">
+        <View className="bg-[#3b021f] mt-16 pb-8 rounded-md items-center mx-4">
             <TextInput
                 maxLength={2}
                 keyboardType="number-pad"
